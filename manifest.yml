@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iot-dev-1
+  host: iot-dev-1
+  disk_quota: 1024M
+  services:
+  - iot-dev-1-cloudantNoSQLDB
+  - iot-dev-1-iotf-service
